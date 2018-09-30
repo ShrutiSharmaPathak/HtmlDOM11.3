@@ -1,5 +1,4 @@
 var string1="";
-var i=0;
 function showAttri()
 {
     /*var attris = document.getElementById("google").attributes;
