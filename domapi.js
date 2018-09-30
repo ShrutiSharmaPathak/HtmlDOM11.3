@@ -6,7 +6,8 @@ function showAttri()
     Array.prototype.slice.call(attris).forEach(function(item) {
     string1=item.name+' : '+item.value+ '<br>'+string1;
     });*/
-    for (let attr of google.attributes)     // google.attributes returns the collection of objects 
+    for (let attr of google.attributes)     /// return the name-value properties of collection of objects represented by div with id 'google'    
+                                            // google.attributes returns the collection of objects 
     {                                       //that belong to a built-in Attr class, with name and value properties
                                             //Attr object represents Html arrtibutes.
        // alert( `${attr.name} = ${attr.value}` );
